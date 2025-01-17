@@ -153,29 +153,31 @@ else:
         unsafe_allow_html=True,
     )
 
+import streamlit as st
 
 # Add new medicine pic to sidebar
 medicine_path = "image 4.jpg"  # Ensure this file is in the same directory as your script
 try:
-    st.sidebar.image(medicine_path, use_container_width=True)
+    st.sidebar.image(medicine_path)
 except FileNotFoundError:
     st.sidebar.warning("image 4 file not found. Please check the file path.")
-    
-# Add New medicine pic to sidebar
+
+# Add another new medicine pic to sidebar
 medicine_path = "image 1.jpg"  # Ensure this file is in the same directory as your script
 try:
-    st.sidebar.image(medicine_path, use_container_width=True)
+    st.sidebar.image(medicine_path)
 except FileNotFoundError:
-    st.sidebar.warning("image 1 file not found. Please check the file path.")   
+    st.sidebar.warning("image 1 file not found. Please check the file path.")
 
+# Add developer title and pic to sidebar
 st.sidebar.title("Developer: Abhishek Kumar")
-
-# Add developer pic to sidebar
 developer_path = "my.jpg"  # Ensure this file is in the same directory as your script
 try:
-    st.sidebar.image(developer_path, use_container_width=True)
+    st.sidebar.image(developer_path)
 except FileNotFoundError:
     st.sidebar.warning("my.jpg file not found. Please check the file path.")
+
+
 
 # Customer details
 name = st.text_input("Enter your name:")
