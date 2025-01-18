@@ -104,8 +104,9 @@ streamlit run App.py
 ---
 
 ## **🚀 Deployed Version:**  
-Check out the live app here: https://abhishek-medical-shop-billing-system-app.streamlit.app/ 
-                              https://abhishek-medical-shop-billing-system.streamlit.app/
+Check out the live APP here: https://abhishek-medical-shop-billing-system-app.streamlit.app/ 
+
+ ## My App⭐🩺😊🧑‍⚕️:--->   https://abhishek-medical-shop-billing-system.streamlit.app/
 
 ---
 
